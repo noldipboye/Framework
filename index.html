@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <div class="navbar">
+
+        <h3 class="navbar-title">NazWa</h3>
+
+        
+
+            <div class="button one">
+                <p>Button 1</p>
+            </div>
+
+            <div class="button two">
+                <p>Button 2</p>
+            </div>
+
+            <div class="button three">
+                <p>Button 3</p>
+            </div>
+
+            <div class="dropdown">
+
+                <div id="dropdown_button" onclick="OnN()" class="dropdown_button">
+                    <p>Dropdown</p>
+                </div>
+
+                <div id="dropdown_button2" onclick="OffN()" class="dropdown_button2">
+                    <p>Dropdown</p>
+                </div>
+
+                <div id="dropdown_items" class=dropdown_items>
+
+                    <div class="dropdown1">
+                        <p>item one</p>
+                    </div>
+
+                    <div class="dropdown2">
+                        <p>item two</p>
+                    </div>
+
+                    <div class="dropdown3">
+                        <p>item three</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="bg-image-hero">
+            <div class="hero-box">
+                <h1 class="hero-title">
+                    Welcome To NazWa!
+                </h1>
+                <h3 class="hero-subtitle">
+                    Subtitle
+                </h3>
+
+                <p class="para">
+                    Content
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="item" id="one">
+            <div class="content-box">
+                <h2 id="grid-title">
+                    Welcome to the Grid System!
+                </h2>
+
+                <p class="paragraph">
+                    The grid system allows for the use of images and content to be ogranizied effectivly.
+                    To start creating a grid system, create a div and name the CSS class whatever. Then in CSS type:
+                </p>
+
+                <p class="paragraph" id="code">
+                    .grid { display: grid; width: 100%;}
+                </p>
+
+                <p class="paragraph">
+                    After this create however many divison you want and give them a height. 
+                </p>
+            </div>
+
+        </div>
+
+        <div class="item" id="two">
+            <div class="Image-box">
+            </div>
+        </div>
+
+        <div class="item" id="three">
+            <div class="Image-box">
+            </div>
+
+        </div>
+
+        <div class="item" id="four">
+            <div class="content-box">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="form-box">
+        <div class="form">
+            <div class="form-content">
+                <h3 class="form-title">Form Title</h3>
+
+                <p class="form-paragraph" id="p-one">First Name</p>
+                <input type="name" class="input" id="input-one" placeholder="First Name Here!">
+
+                <p class="form-paragraph" id="p-two">Last Name</p>
+                <input type="name" class="input" id="input-two" placeholder="Last Name Here!">
+                
+                <p class="form-paragraph" id="p-three">Email</p>
+                <input type="email" class="input" id="input-two" placeholder="Email Here!">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</html>
