@@ -1,11 +1,13 @@
 .navbar {
-  width: 100%;
+  width: 99.15%;
   height: 7.5vh;
   background-color: #003566;
   color: #FAF9F6;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  position: fixed;
+  margin-top: -10px;
 }
 
 .navbar-title {

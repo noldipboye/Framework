@@ -16,13 +16,15 @@ $Border-Radius-2: 10px;
 $Font-1: 'Times New Roman';
 
 .navbar {
-    width: 100%;
+    width: 99.15%;
     height: 7.5vh;
     background-color: $Navy-Blue;
     color: $Off-White;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    position:fixed;
+    margin-top: -10px;
 }
 
 .navbar-title {
