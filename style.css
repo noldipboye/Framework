@@ -191,6 +191,7 @@
   grid-auto-flow: column;
   grid-template-rows: 50vh 50vh;
   grid-gap: 10px;
+  margin-top: 20px;
 }
 
 .item {
@@ -295,6 +296,7 @@
   height: 700px;
   background-color: #FAF9F6;
   border-radius: 25px;
+  margin-top: 20px;
 }
 
 .form-box {
@@ -305,7 +307,8 @@
 
 .form-title {
   font-size: 22px;
-  color: #000000;
+  color: #003566;
+  padding-left: 15px;
 }
 
 .form-content {
@@ -344,5 +347,271 @@
   .form-paragraph {
     padding-bottom: 10px;
     padding-top: 15px;
+  }
+}
+.Modal {
+  -o-object-position: center;
+     object-position: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+}
+
+.Modal-Body {
+  width: 800px;
+  height: 400px;
+  background-color: #FAF9F6;
+  border-radius: 25px;
+  display: none;
+}
+
+.Modal-Title {
+  padding-top: 1px;
+  padding-left: 40px;
+  color: #003566;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Modal-Text {
+  padding-left: 55px;
+  color: #2C6A73;
+}
+
+.Buttons {
+  -o-object-position: center;
+     object-position: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.Accept:hover {
+  background-color: #23995a;
+  cursor: pointer;
+}
+
+.Decline:hover {
+  background-color: #5c1111;
+  cursor: pointer;
+}
+
+.Accept {
+  background-color: #34D27D;
+  width: 110px;
+  height: 58px;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.Decline {
+  background-color: #971C1C;
+  width: 110px;
+  height: 58px;
+  text-align: center;
+  display: none;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: -75px;
+}
+
+@media only screen and (max-width: 700px) {
+  .Modal-Text {
+    padding-right: 50px;
+    color: #2C6A73;
+    -o-object-position: center;
+       object-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    text-align: center;
+  }
+  .Buttons {
+    padding-right: none;
+    -o-object-position: center;
+       object-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    text-align: center;
+  }
+  .Modal-Title {
+    padding-right: 50px;
+    -o-object-position: center;
+       object-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  .Accept {
+    width: 74px;
+    text-align: center;
+    font-size: 15px;
+    height: 54px;
+  }
+  .Decline {
+    width: 74px;
+    text-align: center;
+    font-size: 15px;
+    height: 54px;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .Buttons {
+    padding-right: none;
+    -o-object-position: center;
+       object-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+}
+.Card {
+  -o-object-position: center;
+     object-position: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+}
+
+.Card-Body {
+  background-color: #FAF9F6;
+  width: 370px;
+  height: 530px;
+  border-radius: 25px;
+}
+
+.Image-Body-c {
+  justify-content: center;
+  display: flex;
+  position: relative;
+  padding-top: 26px;
+}
+
+.Image-c {
+  width: 320px;
+  height: 160px;
+  background-color: #D9D9D9;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  color: #003566;
+}
+
+.Card-Title {
+  padding-left: 20px;
+  font-size: 36px;
+  color: #003566;
+}
+
+.Card-Text {
+  padding-left: 25px;
+  font-size: 18px;
+}
+
+.Card-Button {
+  justify-content: left;
+  display: flex;
+  padding-top: 130px;
+  padding-left: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Link-Button-c:hover {
+  background-color: #1e4950;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Link-Button-c {
+  background-color: #2C6A73;
+  width: 110px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 330px) {
+  .Card-Title {
+    padding-right: 30px;
+    font-size: 36px;
+    color: #003566;
+    -o-object-position: center;
+       object-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  .Card-Text {
+    padding-right: 30px;
+    font-size: 18px;
+    -o-object-position: center;
+       object-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  .Card-Button {
+    padding-right: 30px;
+    margin-top: -50px;
+    -o-object-position: center;
+       object-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  .Image-Body-c {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    padding-top: 26px;
+  }
+  .Image-c {
+    width: 280px;
+    height: 140px;
+    background-color: #D9D9D9;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    color: #003566;
+  }
+  .Card-Body {
+    background-color: #FAF9F6;
+    width: 370px;
+    height: 472px;
+    border-radius: 25px;
+  }
+  .Link-Button-c {
+    background-color: #2C6A73;
+    width: 85px;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
   }
 }/*# sourceMappingURL=style.css.map */
