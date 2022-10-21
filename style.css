@@ -298,13 +298,15 @@
   height: 700px;
   background-color: #FAF9F6;
   border-radius: 25px;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .form-box {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #424242;
 }
 
 .form-title {
@@ -357,8 +359,8 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  position: relative;
   margin-top: 20px;
+  margin-left: 100px;
 }
 
 .Modal-Body {
@@ -417,7 +419,7 @@
   display: none;
   border-radius: 10px;
   color: #fff;
-  margin-top: -75px;
+  margin-top: 190px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -502,7 +504,7 @@
 .Image-c {
   width: 320px;
   height: 160px;
-  background-color: #D9D9D9;
+  background-color: grey;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -591,7 +593,6 @@
   .Image-c {
     width: 280px;
     height: 140px;
-    background-color: #D9D9D9;
     justify-content: center;
     align-items: center;
     display: flex;
